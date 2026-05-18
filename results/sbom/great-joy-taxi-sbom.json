@@ -1,0 +1,995 @@
+{
+  "artifacts": [
+    {
+      "id": "2aab349fddde59da",
+      "name": "@types/react",
+      "version": "19.2.10",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/great-joy-taxi/package-lock.json",
+          "accessPath": "/great-joy-taxi/package-lock.json",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [
+        {
+          "value": "MIT",
+          "spdxExpression": "MIT",
+          "type": "declared",
+          "urls": [],
+          "locations": [
+            {
+              "path": "/great-joy-taxi/package-lock.json",
+              "accessPath": "/great-joy-taxi/package-lock.json",
+              "annotations": {
+                "evidence": "primary"
+              }
+            }
+          ]
+        }
+      ],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:\\@types\\/react:\\@types\\/react:19.2.10:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/%40types/react@19.2.10",
+      "metadataType": "javascript-npm-package-lock-entry",
+      "metadata": {
+        "resolved": "https://registry.npmjs.org/@types/react/-/react-19.2.10.tgz",
+        "integrity": "sha512-WPigyYuGhgZ/cTPRXB2EwUw+XvsRA3GqHlsP4qteqrnnjDrApbS7MxcGr/hke5iUoeB7E/gQtrs9I37zAJ0Vjw==",
+        "dependencies": {
+          "csstype": "^3.2.2"
+        }
+      }
+    },
+    {
+      "id": "2866a464122041bb",
+      "name": "@types/react-dom",
+      "version": "19.2.3",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/great-joy-taxi/package-lock.json",
+          "accessPath": "/great-joy-taxi/package-lock.json",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [
+        {
+          "value": "MIT",
+          "spdxExpression": "MIT",
+          "type": "declared",
+          "urls": [],
+          "locations": [
+            {
+              "path": "/great-joy-taxi/package-lock.json",
+              "accessPath": "/great-joy-taxi/package-lock.json",
+              "annotations": {
+                "evidence": "primary"
+              }
+            }
+          ]
+        }
+      ],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:\\@types\\/react-dom:\\@types\\/react-dom:19.2.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:\\@types\\/react-dom:\\@types\\/react_dom:19.2.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:\\@types\\/react_dom:\\@types\\/react-dom:19.2.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:\\@types\\/react_dom:\\@types\\/react_dom:19.2.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:\\@types\\/react:\\@types\\/react-dom:19.2.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:\\@types\\/react:\\@types\\/react_dom:19.2.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/%40types/react-dom@19.2.3",
+      "metadataType": "javascript-npm-package-lock-entry",
+      "metadata": {
+        "resolved": "https://registry.npmjs.org/@types/react-dom/-/react-dom-19.2.3.tgz",
+        "integrity": "sha512-jp2L/eY6fn+KgVVQAOqYItbF0VY/YApe5Mz2F0aykSO8gx31bYCZyvSeYxCHKvzHG5eZjc+zyaS5BrBWya2+kQ==",
+        "dependencies": null
+      }
+    },
+    {
+      "id": "4a0033eb0975df49",
+      "name": "csstype",
+      "version": "3.2.3",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/great-joy-taxi/package-lock.json",
+          "accessPath": "/great-joy-taxi/package-lock.json",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [
+        {
+          "value": "MIT",
+          "spdxExpression": "MIT",
+          "type": "declared",
+          "urls": [],
+          "locations": [
+            {
+              "path": "/great-joy-taxi/package-lock.json",
+              "accessPath": "/great-joy-taxi/package-lock.json",
+              "annotations": {
+                "evidence": "primary"
+              }
+            }
+          ]
+        }
+      ],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:csstype:csstype:3.2.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/csstype@3.2.3",
+      "metadataType": "javascript-npm-package-lock-entry",
+      "metadata": {
+        "resolved": "https://registry.npmjs.org/csstype/-/csstype-3.2.3.tgz",
+        "integrity": "sha512-z1HGKcYy2xA8AGQfwrn0PAy+PB7X/GSj3UVJW9qKyn43xWa+gl5nXmU4qqLMRzWVLFC8KusUX8T/0kCiOYpAIQ==",
+        "dependencies": null
+      }
+    },
+    {
+      "id": "a16055942a005c07",
+      "name": "great-joy-taxi",
+      "version": "0.0.0",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/great-joy-taxi/package-lock.json",
+          "accessPath": "/great-joy-taxi/package-lock.json",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:great-joy-taxi:great-joy-taxi:0.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:great-joy-taxi:great_joy_taxi:0.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:great_joy_taxi:great-joy-taxi:0.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:great_joy_taxi:great_joy_taxi:0.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:great-joy:great-joy-taxi:0.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:great-joy:great_joy_taxi:0.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:great_joy:great-joy-taxi:0.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:great_joy:great_joy_taxi:0.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:great:great-joy-taxi:0.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:great:great_joy_taxi:0.0.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/great-joy-taxi@0.0.0",
+      "metadataType": "javascript-npm-package-lock-entry",
+      "metadata": {
+        "resolved": "",
+        "integrity": "",
+        "dependencies": {
+          "react": "^19.2.0",
+          "react-dom": "^19.2.0",
+          "react-icons": "^5.5.0",
+          "yet-another-react-lightbox": "^3.28.0"
+        }
+      }
+    },
+    {
+      "id": "1508c0a34f40eca6",
+      "name": "react",
+      "version": "19.2.4",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/great-joy-taxi/package-lock.json",
+          "accessPath": "/great-joy-taxi/package-lock.json",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [
+        {
+          "value": "MIT",
+          "spdxExpression": "MIT",
+          "type": "declared",
+          "urls": [],
+          "locations": [
+            {
+              "path": "/great-joy-taxi/package-lock.json",
+              "accessPath": "/great-joy-taxi/package-lock.json",
+              "annotations": {
+                "evidence": "primary"
+              }
+            }
+          ]
+        }
+      ],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:react:react:19.2.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/react@19.2.4",
+      "metadataType": "javascript-npm-package-lock-entry",
+      "metadata": {
+        "resolved": "https://registry.npmjs.org/react/-/react-19.2.4.tgz",
+        "integrity": "sha512-9nfp2hYpCwOjAN+8TZFGhtWEwgvWHXqESH8qT89AT/lWklpLON22Lc8pEtnpsZz7VmawabSU0gCjnj8aC0euHQ==",
+        "dependencies": null
+      }
+    },
+    {
+      "id": "10ea575d411fd806",
+      "name": "react-dom",
+      "version": "19.2.4",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/great-joy-taxi/package-lock.json",
+          "accessPath": "/great-joy-taxi/package-lock.json",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [
+        {
+          "value": "MIT",
+          "spdxExpression": "MIT",
+          "type": "declared",
+          "urls": [],
+          "locations": [
+            {
+              "path": "/great-joy-taxi/package-lock.json",
+              "accessPath": "/great-joy-taxi/package-lock.json",
+              "annotations": {
+                "evidence": "primary"
+              }
+            }
+          ]
+        }
+      ],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:react-dom:react-dom:19.2.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:react-dom:react_dom:19.2.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:react_dom:react-dom:19.2.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:react_dom:react_dom:19.2.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:react:react-dom:19.2.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:react:react_dom:19.2.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/react-dom@19.2.4",
+      "metadataType": "javascript-npm-package-lock-entry",
+      "metadata": {
+        "resolved": "https://registry.npmjs.org/react-dom/-/react-dom-19.2.4.tgz",
+        "integrity": "sha512-AXJdLo8kgMbimY95O2aKQqsz2iWi9jMgKJhRBAxECE4IFxfcazB2LmzloIoibJI3C12IlY20+KFaLv+71bUJeQ==",
+        "dependencies": {
+          "scheduler": "^0.27.0"
+        }
+      }
+    },
+    {
+      "id": "581c46a6597d3e94",
+      "name": "react-icons",
+      "version": "5.5.0",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/great-joy-taxi/package-lock.json",
+          "accessPath": "/great-joy-taxi/package-lock.json",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [
+        {
+          "value": "MIT",
+          "spdxExpression": "MIT",
+          "type": "declared",
+          "urls": [],
+          "locations": [
+            {
+              "path": "/great-joy-taxi/package-lock.json",
+              "accessPath": "/great-joy-taxi/package-lock.json",
+              "annotations": {
+                "evidence": "primary"
+              }
+            }
+          ]
+        }
+      ],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:react-icons:react-icons:5.5.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:react-icons:react_icons:5.5.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:react_icons:react-icons:5.5.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:react_icons:react_icons:5.5.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:react:react-icons:5.5.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:react:react_icons:5.5.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/react-icons@5.5.0",
+      "metadataType": "javascript-npm-package-lock-entry",
+      "metadata": {
+        "resolved": "https://registry.npmjs.org/react-icons/-/react-icons-5.5.0.tgz",
+        "integrity": "sha512-MEFcXdkP3dLo8uumGI5xN3lDFNsRtrjbOEKDLD7yv76v4wpnEq2Lt2qeHaQOr34I/wPN3s3+N08WkQ+CW37Xiw==",
+        "dependencies": null
+      }
+    },
+    {
+      "id": "6bafc6ff78530c22",
+      "name": "scheduler",
+      "version": "0.27.0",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/great-joy-taxi/package-lock.json",
+          "accessPath": "/great-joy-taxi/package-lock.json",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [
+        {
+          "value": "MIT",
+          "spdxExpression": "MIT",
+          "type": "declared",
+          "urls": [],
+          "locations": [
+            {
+              "path": "/great-joy-taxi/package-lock.json",
+              "accessPath": "/great-joy-taxi/package-lock.json",
+              "annotations": {
+                "evidence": "primary"
+              }
+            }
+          ]
+        }
+      ],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:scheduler:scheduler:0.27.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/scheduler@0.27.0",
+      "metadataType": "javascript-npm-package-lock-entry",
+      "metadata": {
+        "resolved": "https://registry.npmjs.org/scheduler/-/scheduler-0.27.0.tgz",
+        "integrity": "sha512-eNv+WrVbKu1f3vbYJT/xtiF5syA5HPIMtf9IgY/nKg0sWqzAUEvqY/xm7OcZc/qafLx/iO9FgOmeSAp4v5ti/Q==",
+        "dependencies": null
+      }
+    },
+    {
+      "id": "b6232b704a55102b",
+      "name": "yet-another-react-lightbox",
+      "version": "3.28.0",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/great-joy-taxi/package-lock.json",
+          "accessPath": "/great-joy-taxi/package-lock.json",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [
+        {
+          "value": "MIT",
+          "spdxExpression": "MIT",
+          "type": "declared",
+          "urls": [],
+          "locations": [
+            {
+              "path": "/great-joy-taxi/package-lock.json",
+              "accessPath": "/great-joy-taxi/package-lock.json",
+              "annotations": {
+                "evidence": "primary"
+              }
+            }
+          ]
+        }
+      ],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:yet-another-react-lightbox:yet-another-react-lightbox:3.28.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:yet-another-react-lightbox:yet_another_react_lightbox:3.28.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:yet_another_react_lightbox:yet-another-react-lightbox:3.28.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:yet_another_react_lightbox:yet_another_react_lightbox:3.28.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:yet-another-react:yet-another-react-lightbox:3.28.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:yet-another-react:yet_another_react_lightbox:3.28.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:yet_another_react:yet-another-react-lightbox:3.28.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:yet_another_react:yet_another_react_lightbox:3.28.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:yet-another:yet-another-react-lightbox:3.28.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:yet-another:yet_another_react_lightbox:3.28.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:yet_another:yet-another-react-lightbox:3.28.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:yet_another:yet_another_react_lightbox:3.28.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:yet:yet-another-react-lightbox:3.28.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:yet:yet_another_react_lightbox:3.28.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/yet-another-react-lightbox@3.28.0",
+      "metadataType": "javascript-npm-package-lock-entry",
+      "metadata": {
+        "resolved": "https://registry.npmjs.org/yet-another-react-lightbox/-/yet-another-react-lightbox-3.28.0.tgz",
+        "integrity": "sha512-bHjG1/DS4aWPkKb/6hNp0+zcgjda27wQlXBpJvb9TcblC1U1dY3Ih0pe85O8/ZLz+OIy+ZvLxN2gmsbDW0Q/QQ==",
+        "dependencies": null
+      }
+    }
+  ],
+  "artifactRelationships": [
+    {
+      "parent": "10ea575d411fd806",
+      "child": "a16055942a005c07",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "10ea575d411fd806",
+      "child": "fd25b108ed9e3686",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "1508c0a34f40eca6",
+      "child": "a16055942a005c07",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "1508c0a34f40eca6",
+      "child": "fd25b108ed9e3686",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "2866a464122041bb",
+      "child": "fd25b108ed9e3686",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "2aab349fddde59da",
+      "child": "fd25b108ed9e3686",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "4a0033eb0975df49",
+      "child": "2aab349fddde59da",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "4a0033eb0975df49",
+      "child": "fd25b108ed9e3686",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "581c46a6597d3e94",
+      "child": "a16055942a005c07",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "581c46a6597d3e94",
+      "child": "fd25b108ed9e3686",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "6bafc6ff78530c22",
+      "child": "10ea575d411fd806",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "6bafc6ff78530c22",
+      "child": "fd25b108ed9e3686",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "a16055942a005c07",
+      "child": "fd25b108ed9e3686",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "b6232b704a55102b",
+      "child": "a16055942a005c07",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "b6232b704a55102b",
+      "child": "fd25b108ed9e3686",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "d5f792d96fe01cc3d49e6c94b491affdbadc41e755c2bafb2e1ade4a080ba43b",
+      "child": "10ea575d411fd806",
+      "type": "contains"
+    },
+    {
+      "parent": "d5f792d96fe01cc3d49e6c94b491affdbadc41e755c2bafb2e1ade4a080ba43b",
+      "child": "1508c0a34f40eca6",
+      "type": "contains"
+    },
+    {
+      "parent": "d5f792d96fe01cc3d49e6c94b491affdbadc41e755c2bafb2e1ade4a080ba43b",
+      "child": "2866a464122041bb",
+      "type": "contains"
+    },
+    {
+      "parent": "d5f792d96fe01cc3d49e6c94b491affdbadc41e755c2bafb2e1ade4a080ba43b",
+      "child": "2aab349fddde59da",
+      "type": "contains"
+    },
+    {
+      "parent": "d5f792d96fe01cc3d49e6c94b491affdbadc41e755c2bafb2e1ade4a080ba43b",
+      "child": "4a0033eb0975df49",
+      "type": "contains"
+    },
+    {
+      "parent": "d5f792d96fe01cc3d49e6c94b491affdbadc41e755c2bafb2e1ade4a080ba43b",
+      "child": "581c46a6597d3e94",
+      "type": "contains"
+    },
+    {
+      "parent": "d5f792d96fe01cc3d49e6c94b491affdbadc41e755c2bafb2e1ade4a080ba43b",
+      "child": "6bafc6ff78530c22",
+      "type": "contains"
+    },
+    {
+      "parent": "d5f792d96fe01cc3d49e6c94b491affdbadc41e755c2bafb2e1ade4a080ba43b",
+      "child": "a16055942a005c07",
+      "type": "contains"
+    },
+    {
+      "parent": "d5f792d96fe01cc3d49e6c94b491affdbadc41e755c2bafb2e1ade4a080ba43b",
+      "child": "b6232b704a55102b",
+      "type": "contains"
+    }
+  ],
+  "files": [
+    {
+      "id": "fd25b108ed9e3686",
+      "location": {
+        "path": "/great-joy-taxi/package-lock.json"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "application/json",
+        "size": 101479
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "28a514713041974a426742ba6e3a70a2002a7395"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "ebd9b3ed05f3736a33cdd63f01a23ff91f4a0569291067663e01d656c7212731"
+        }
+      ]
+    },
+    {
+      "id": "3b302210ac12a2f7",
+      "location": {
+        "path": "/great-joy-taxi/requirements.txt"
+      },
+      "unknowns": [
+        "python-package-cataloger: unable to determine packages"
+      ]
+    },
+    {
+      "id": "fd71c2238fc07657",
+      "location": {
+        "path": "/package-lock.json"
+      },
+      "unknowns": [
+        "javascript-lock-cataloger: unable to determine packages"
+      ]
+    }
+  ],
+  "source": {
+    "id": "d5f792d96fe01cc3d49e6c94b491affdbadc41e755c2bafb2e1ade4a080ba43b",
+    "name": "/workspaces/produccion_software_emi305/data/repos/great-joy-taxi",
+    "version": "",
+    "type": "directory",
+    "metadata": {
+      "path": "/workspaces/produccion_software_emi305/data/repos/great-joy-taxi"
+    }
+  },
+  "distro": {},
+  "descriptor": {
+    "name": "syft",
+    "version": "1.44.0",
+    "configuration": {
+      "catalogers": {
+        "requested": {
+          "default": [
+            "directory",
+            "file"
+          ]
+        },
+        "used": [
+          "alpm-db-cataloger",
+          "apk-db-cataloger",
+          "binary-classifier-cataloger",
+          "cargo-auditable-binary-cataloger",
+          "cocoapods-cataloger",
+          "conan-cataloger",
+          "conda-meta-cataloger",
+          "dart-pubspec-cataloger",
+          "dart-pubspec-lock-cataloger",
+          "deb-archive-cataloger",
+          "dotnet-deps-binary-cataloger",
+          "dotnet-packages-lock-cataloger",
+          "dpkg-db-cataloger",
+          "elf-binary-package-cataloger",
+          "elixir-mix-lock-cataloger",
+          "erlang-otp-application-cataloger",
+          "erlang-rebar-lock-cataloger",
+          "file-content-cataloger",
+          "file-digest-cataloger",
+          "file-executable-cataloger",
+          "file-metadata-cataloger",
+          "gguf-cataloger",
+          "github-action-workflow-usage-cataloger",
+          "github-actions-usage-cataloger",
+          "go-module-binary-cataloger",
+          "go-module-file-cataloger",
+          "graalvm-native-image-cataloger",
+          "haskell-cataloger",
+          "homebrew-cataloger",
+          "java-archive-cataloger",
+          "java-gradle-lockfile-cataloger",
+          "java-jvm-cataloger",
+          "java-pom-cataloger",
+          "javascript-lock-cataloger",
+          "linux-kernel-cataloger",
+          "lua-rock-cataloger",
+          "nix-cataloger",
+          "opam-cataloger",
+          "pe-binary-package-cataloger",
+          "php-composer-lock-cataloger",
+          "php-interpreter-cataloger",
+          "php-pear-serialized-cataloger",
+          "portage-cataloger",
+          "python-installed-package-cataloger",
+          "python-package-cataloger",
+          "r-package-cataloger",
+          "rpm-archive-cataloger",
+          "rpm-db-cataloger",
+          "ruby-gemfile-cataloger",
+          "ruby-gemspec-cataloger",
+          "rust-cargo-lock-cataloger",
+          "snap-cataloger",
+          "swift-package-manager-cataloger",
+          "swipl-pack-cataloger",
+          "terraform-lock-cataloger",
+          "wordpress-plugins-cataloger"
+        ]
+      },
+      "data-generation": {
+        "generate-cpes": true
+      },
+      "files": {
+        "content": {
+          "globs": null,
+          "skip-files-above-size": 0
+        },
+        "hashers": [
+          "sha-1",
+          "sha-256"
+        ],
+        "selection": "owned-by-package"
+      },
+      "licenses": {
+        "coverage": 75,
+        "include-content": "none"
+      },
+      "packages": {
+        "binary": [
+          "python-binary",
+          "python-binary-lib",
+          "pypy-binary-lib",
+          "go-binary",
+          "julia-binary",
+          "helm",
+          "redis-binary",
+          "valkey-binary",
+          "nodejs-binary",
+          "busybox-binary",
+          "util-linux-binary",
+          "haproxy-binary",
+          "perl-binary",
+          "php-composer-binary",
+          "httpd-binary",
+          "memcached-binary",
+          "traefik-binary",
+          "arangodb-binary",
+          "postgresql-binary",
+          "mysql-binary",
+          "mysql-binary",
+          "mysql-binary",
+          "xtrabackup-binary",
+          "mariadb-binary",
+          "rust-standard-library-linux",
+          "rust-standard-library-macos",
+          "ruby-binary",
+          "erlang-binary",
+          "erlang-alpine-binary",
+          "erlang-library",
+          "swipl-binary",
+          "dart-binary",
+          "deno-binary",
+          "haskell-ghc-binary",
+          "haskell-cabal-binary",
+          "haskell-stack-binary",
+          "consul-binary",
+          "hashicorp-vault-binary",
+          "nginx-binary",
+          "bash-binary",
+          "openssl-binary",
+          "openldap-search-binary",
+          "qt-qtbase-lib",
+          "gcc-binary",
+          "fluent-bit-binary",
+          "wordpress-cli-binary",
+          "curl-binary",
+          "lighttpd-binary",
+          "proftpd-binary",
+          "zstd-binary",
+          "xz-binary",
+          "gzip-binary",
+          "sqlcipher-binary",
+          "jq-binary",
+          "chrome-binary",
+          "ffmpeg-binary",
+          "ffmpeg-library",
+          "ffmpeg-library",
+          "elixir-binary",
+          "elixir-library",
+          "istio-binary",
+          "istio-binary",
+          "grafana-binary",
+          "grafana-binary",
+          "envoy-binary",
+          "mongodb-binary",
+          "java-binary",
+          "java-jdb-binary"
+        ],
+        "dotnet": {
+          "dep-packages-must-claim-dll": true,
+          "dep-packages-must-have-dll": false,
+          "exclude-project-references": true,
+          "propagate-dll-claims-to-parents": true,
+          "relax-dll-claims-when-bundling-detected": true
+        },
+        "golang": {
+          "local-mod-cache-dir": "/home/vscode/go/pkg/mod",
+          "local-vendor-dir": "",
+          "main-module-version": {
+            "from-build-settings": true,
+            "from-contents": false,
+            "from-ld-flags": true
+          },
+          "proxies": [
+            "https://proxy.golang.org",
+            "direct"
+          ],
+          "search-local-mod-cache-licenses": false,
+          "search-local-vendor-licenses": false,
+          "search-remote-licenses": false,
+          "use-packages-lib": true
+        },
+        "java-archive": {
+          "include-indexed-archives": true,
+          "include-unindexed-archives": false,
+          "maven-base-url": "https://repo1.maven.org/maven2",
+          "maven-localrepository-dir": "/home/vscode/.m2/repository",
+          "max-parent-recursive-depth": 0,
+          "resolve-transitive-dependencies": false,
+          "use-maven-localrepository": false,
+          "use-network": false
+        },
+        "javascript": {
+          "include-dev-dependencies": false,
+          "npm-base-url": "https://registry.npmjs.org",
+          "search-remote-licenses": false
+        },
+        "linux-kernel": {
+          "catalog-modules": true
+        },
+        "nix": {
+          "capture-owned-files": false
+        },
+        "python": {
+          "guess-unpinned-requirements": false,
+          "pypi-base-url": "https://pypi.org/pypi",
+          "search-remote-licenses": false
+        }
+      },
+      "relationships": {
+        "exclude-binary-packages-with-file-ownership-overlap": true,
+        "package-file-ownership": true,
+        "package-file-ownership-overlap": true
+      },
+      "search": {
+        "scope": "squashed"
+      }
+    }
+  },
+  "schema": {
+    "version": "16.1.3",
+    "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-16.1.3.json"
+  }
+}

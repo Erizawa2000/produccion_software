@@ -1,0 +1,14 @@
+uv run python scripts/add_submodules.py
+uv run python scripts/generate_sboms.py
+uv run python scripts/generate_grype.py
+uv run python scripts/generate_codeql.py
+
+find data/repos -path "*/.github/workflows/*"
+
+grep -R "permissions:" -n data/repos/*/.github/workflows/
+
+grep -R "write-all\|contents: write\|pull-requests: write\|issues: write\|actions: write\|id-token: write" -n data/repos/*/.github/workflows/
+
+grep -R "pull_request_target" -n data/repos/*/.github/workflows/
+
+grep -R "uses:" -n data/repos/*/.github/workflows/ | sed 's/.*uses: //' | sort | uniq -c | sort -nr | head -30

@@ -1,0 +1,12 @@
+    1  uv run python scripts/add_submodules.py
+    2  uv run python scripts/generate_sboms.py
+    3  uv run python scripts/generate_grype.py
+    4  uv run python scripts/generate_codeql.py
+    5  find data/repos -path "*/.github/workflows/*"
+    6  grep -R "permissions:" -n data/repos/*/.github/workflows/
+    7  grep -R "write-all\|contents: write\|pull-requests: write\|issues: write\|actions: write\|id-token: write" -n data/repos/*/.github/workflows/
+    8  grep -R "pull_request_target" -n data/repos/*/.github/workflows/
+    9  grep -R "uses:" -n data/repos/*/.github/workflows/ | head -120
+   10  grep -R "uses:" -n data/repos/*/.github/workflows/ | sed 's/.*uses: //' | sort | uniq -c | sort -nr | head -30
+   11  mkdir -p evidence/logs
+   12  history > evidence/logs/terminal_history.txt

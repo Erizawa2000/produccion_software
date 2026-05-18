@@ -1,0 +1,29 @@
+{
+  "repositories": [
+    {
+      "url": "https://github.com/anthropics/claude-code-action.git",
+      "path": "data/repos/claude-code-action",
+      "ref": null
+    },
+    {
+      "url": "https://github.com/cirolini/genai-code-review.git",
+      "path": "data/repos/genai-code-review",
+      "ref": null
+    },
+    {
+      "url": "https://github.com/anomalyco/opencode.git",
+      "path": "data/repos/opencode",
+      "ref": null
+    },
+    {
+      "url": "https://github.com/tinyhumansai/openhuman.git",
+      "path": "data/repos/openhuman",
+      "ref": null
+    },
+    {
+      "url": "https://github.com/HKUDS/CLI-Anything.git",
+      "path": "data/repos/CLI-Anything",
+      "ref": null
+    }
+  ]
+}
